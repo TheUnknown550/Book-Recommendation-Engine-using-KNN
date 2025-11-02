@@ -1,0 +1,142 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# ---- Distribution / packaging ----
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+dmypy.json
+.dmypy.json
+
+# Lint/cache
+.ruff_cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+/.venv/
+env.bak/
+venv.bak/
+__pypackages__/
+.python-version
+
+# Package managers (keep lockfiles tracked by default)
+# Pipenv/Poetry/PDM lockfiles are intentionally NOT ignored
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ---- Editors / IDEs ----
+.vscode/
+.vscode-test/
+.idea/
+.fleet/
+*.sublime-project
+*.sublime-workspace
+.ropeproject/
+.spyderproject
+.spyproject
+.history/
+.venv.bak/
+
+# Vim/Emacs
+*.swp
+*.swo
+*~
+.vim/
+.emacs.d/
+
+# ---- OS files ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Logs & runtime ----
+*.log
+logs/
+*.pid
+*.seed
+*.out
+*.err
+
+# ---- Project data artifacts ----
+# FreeCodeCamp book dataset and similar large files
+book-crossings.zip
+BX-*.csv
+
+# Common data formats (uncomment if you want to track specific files)
+*.csv
+*.tsv
+*.zip
+*.gz
+*.bz2
+*.xz
+*.parquet
+*.feather
+*.h5
+*.pickle
+*.pkl
+
+# ---- Misc ----
+.DS_Store?
+.benchmarks/
+site/
+docs/_build/
+
